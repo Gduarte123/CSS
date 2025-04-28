@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <title>Cadastro da Liga dos Programadores</title>
+</head>
+<body>
+    <h1>Cadastro da Liga dos Programadores</h1>
+
+    <form>
+        <label>Nome: <input type="text" name="nome"></label><br><br>
+
+        <label>Email: <input type="email" name="email"></label> -
+        <label>Password: <input type="password" name="senha"></label><br><br>
+
+        <label>Data de Nascimento: <input type="date" name="data_nasc"></label> -
+        <label>Foto: <input type="file" name="foto"></label><br><br>
+
+        <label>Nacionalidade: <input type="text" name="nacionalidade"></label> -
+        Gênero:
+
+        <label><input type="radio" name="genero" value="mulher" style="accent-color: blue;">Mulher</label>  
+        <label><input type="radio" name="genero" value="homem" style="accent-color: blue;">Homem</label>
+
+        <p>Linguagens que você domina:</p>
+        <label><input type="checkbox" name="linguagens" value="JavaScript"> JavaScript</label> -
+        <label><input type="checkbox" name="linguagens" value="Python"> Python</label> -
+        <label><input type="checkbox" name="linguagens" value="C"> C</label> -
+        <label><input type="checkbox" name="linguagens" value="Java"> Java</label><br><br>
+
+        <textarea rows="10" cols="40" placeholder="Por que você quer ser um programador?"></textarea><br><br>
+
+        <button type="submit">Criar</button>
+    </form>
+</body>
+</html>
